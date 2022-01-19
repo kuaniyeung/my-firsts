@@ -30,7 +30,6 @@ form {
     background: #fffdf0;
     opacity: 80%;
     border-radius: 30px;
-    text-align: center;
     display: flex;
     justify-content: center;
     width: 60%;
@@ -80,7 +79,7 @@ label {
 }
 
 input:focus, textarea:focus {
-    border-color: #ffe945;
+    outline-color: #ffe945;
 }
 
 input::placeholder, textarea::placeholder {
