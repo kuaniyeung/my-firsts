@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body> 
+    
+    <h1 id="title">
+        <span>Plantyof</span><i>Leaves</i> Feedback Survey
+    </h1>
+    <p id="description">
+        We would love to hear from you! Good and bad, we will take it all!
+    </p>  
+    <form id="survey-form">
+        <div>
+            <div class="row">
+                <label id="name"> 
+                    Name:<br>
+                    <input name="name" id="name-label" type="text" placeholder="Your name" required>
+                </label>
+            </div>
+            <div class="row">
+                <label id="email">
+                    Email:<br>
+                    <input name="email" id="email-label" type="email" placeholder="Your email" required>
+                </label>
+            </div>
+            <div class="row">
+                <label id="number">
+                    Age: (optional)<br>
+                    <input name="age" id="number-label" type="number" placeholder="Your age" min ="1" max="99">
+                </label>
+            </div>
+            <div class="row">
+                <label>
+                    What do you do?<br>
+                    <select name="job" id="dropdown" required>
+                        <option value="">Choose your occupation</option>
+                        <option value="parent">Stay-at-home Parent</option>
+                        <option value="fulltime">Full-time Student</option>
+                        <option value="parttime">Part-time Student</option>
+                        <option value="retired">Retired granny</option>
+                        <option value="hustler">Hustler</option>
+                    </select>
+                </label>
+            </div>
+            <div class="row">
+                <label>
+                    Would you recommend us to your friends? (Yes please)<br>
+                    <div>
+                        <input id="definitely" name="recommend?" type="radio" value="definitely" checked>
+                        <label for="definitely">Most definitely!</label>
+                    </div>
+                    <div>
+                        <input id="maybe" name="recommend?" type="radio" value="maybe">
+                        <label for="maybe">Maybe?</label>
+                    </div>
+                    <div>
+                        <input id="notsure" name="recommend?" type="radio" value="notsure">
+                        <label for="notsure">Not too sure</label>
+                    </div>
+                </label>
+            </div>
+            <div class="row">
+                <label>
+                    What do you like the most about us?<br>
+                    <select name="like" id="dropdown-2" required>
+                        <option value="">Choose what you like about us</option>
+                        <option value="plants">Plant selection</option>
+                        <option value="flower">Flower selection</option>
+                        <option value="hardware">Vases & Planters</option>
+                        <option value="service">Our service & smile</option>
+                    </select>
+                </label>
+            </div>
+            <div class="row">
+                <label>
+                    What should we work harder on? (Check all that apply)<br>
+                    <div>
+                        <input id="service" name="feedback" type="checkbox" value="service">
+                        <label for="service">Customer Service</label>
+                    </div>
+                    <div>
+                        <input id="speed" name="feedback" type="checkbox" value="speed">
+                        <label for="speed">Speed of service</label>
+                    </div>
+                    <div>
+                        <input id="quality" name="feedback" type="checkbox" value="quality">
+                        <label for="quality">Quality of products</label>
+                    </div>
+                    <div>
+                        <input id="price" name="feedback" type="checkbox" value="price">
+                        <label for="price">Our pricing</label>
+                    </div>
+                    <div>
+                        <input id="website" name="feedback" type="checkbox" value="website">
+                        <label for="website">Website</label>
+                    </div>
+                </label>
+            </div>
+            <div class="row">
+                <label for="comment-label">
+                    What other comments or feedback do you have?<br>
+                    <textarea name="comment" id="comment-label" type="message" placeholder="Leave us your comment here" spellcheck="true"></textarea>
+                </label>
+            </div>
+            <input id="submit-label" name="submit" type="submit" value="Submit!">
+        </div>
+    </form> 
+</body>

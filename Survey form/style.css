@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(247, 242, 213, 0.8), rgba(247, 235, 173, 0.8)), url(https://www.pennington.com/-/media/Images/Pennington2-NA/US/blog/fertilizer/8-Steps-to-Growing-a-Healthy-Indoor-Garden-Anytime/tropical-urban-garden.jpg?h=538&la=en&w=800&hash=EE244B50D804A11720CED7CBDE9AC566B9484F66);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: #474115;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#title {
+    padding: 80px 0 0 0;
+}
+
+#title span {
+    font-weight: 400;
+}
+
+#description {
+    padding: 10px 0 10px 0;
+}
+
+form {
+    background: #fffdf0;
+    opacity: 80%;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 30px 20% 100px 20%;
+}
+
+form > div {
+    margin: 40px 0 50px 0;
+}
+
+.row {
+    text-align: start;
+    padding:10px 0; 
+    line-height: 30px;
+    font-size: 15px;
+}
+
+label {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#dropdown,
+#dropdown-2,
+#comment-label
+ {
+    width: 100%;
+    border-radius: 5px;
+    border-color: #eddc5f;
+    padding: 5px 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+    color :#c4b43b;
+}
+
+
+
+#comment-label {
+    height: 80px;
+    resize: none;
+    color :#c4b43b;
+}
+
+input:focus, textarea:focus {
+    border-color: #ffe945;
+}
+
+input::placeholder, textarea::placeholder {
+    color :#c4b43b;
+}
+
+#definitely, #maybe, #notsure {
+    border: 2px solid #c4b43b;
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+    margin: 0 2px 0 0;
+}
+
+#definitely:checked, #maybe:checked, #notsure:checked {
+    border: 6px solid #c4b43b;
+}
+
+#service, #speed, #quality, #price, #website {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #c4b43b;
+    top: 2px;
+    border-radius: 20%;
+    position: relative;
+    margin: 0 2px 0 0;
+}
+
+#service:checked, #speed:checked, #quality:checked, #price:checked, #website:checked {
+    border: 6px solid #c4b43b;
+}
+
+#submit-label {
+    width: 100%;
+    border-radius: 5px;
+    border-color: #eddc5f;
+    padding: 10px 5px;
+    background-color: #c4b43b;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgba(247, 242, 213);
+    letter-spacing: 3px;
+    margin: 10px 0 20px 0;
+}
