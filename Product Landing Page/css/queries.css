@@ -1,0 +1,179 @@
+/*--- VARIABLES ---*/
+/* Small tablets to big tablets: 768 - 1023 px (landscape view: 1024px) */
+@media only screen and (max-width: 1023px) {
+  #features, #demo {
+    margin: 100px 10% 0 10%;
+  }
+  #pricing {
+    padding: 30px 10% 80px 10%;
+  }
+  #pricing #price-choice {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #pricing #price-choice .price-column {
+    padding-bottom: 40px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #pricing #price-choice .selling-price {
+    width: 35%;
+    padding: 15px 5%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 30px;
+  }
+  #pricing #price-choice .pack-details {
+    padding: 20px 5%;
+    height: auto;
+    width: 65%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  #pricing #price-choice .pack-details .pack-features {
+    margin-bottom: 0;
+  }
+  #pricing #price-choice .pack-details .btn:link,
+  #pricing #price-choice .pack-details .btn:visited {
+    height: 70%;
+    width: 30%;
+    margin: 5px 0;
+    padding: 5px 0;
+  }
+  #pricing #price-choice .pack-details br {
+    display: inline-block;
+  }
+  #form #subscribe {
+    margin: 10px 10%;
+  }
+  #form #subscribe #email-input {
+    margin-top: 30px;
+  }
+}
+
+/* Small phones to small tablets: 481 - 767 px (width of ipad: 768px) */
+@media only screen and (max-width: 767px) {
+  header {
+    padding: 10px 5%;
+  }
+  header #head-img {
+    width: auto;
+    height: 30px;
+  }
+  header nav {
+    display: none;
+  }
+  header #nav-bar li {
+    display: block;
+    padding-bottom: 10px;
+    text-align: right;
+  }
+  header .bi-list {
+    display: inline-block;
+  }
+  h1 {
+    font-size: 60px;
+    padding-top: 0;
+  }
+  #slogan {
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+  }
+  #features, #demo {
+    margin: 60px 5%;
+  }
+  #features .features-title {
+    padding-bottom: 15px;
+  }
+  #features .features-list {
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  #pricing {
+    margin: 60px 0;
+    padding: 10px 5% 80px 5%;
+  }
+  #pricing #price-choice .selling-price {
+    width: 45%;
+    padding: 15px 5%;
+    line-height: 40px;
+  }
+  #pricing #price-choice h3 {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 15px;
+    color: #FEF5F5;
+  }
+  #pricing #price-choice .price-value {
+    font-size: 40px;
+  }
+  #pricing #price-choice .price-quantity {
+    font-size: 15px;
+  }
+  #pricing #price-choice .pack-details {
+    padding: 20px 5%;
+    height: auto;
+    width: 65%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #pricing #price-choice .pack-details .pack-features {
+    margin-bottom: 0;
+  }
+  #pricing #price-choice .pack-details .btn:link,
+  #pricing #price-choice .pack-details .btn:visited {
+    height: 70%;
+    width: 70%;
+    margin: 5px 0;
+    padding: 5px 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  #pricing #price-choice .pack-details br {
+    display: none;
+  }
+  #form #subscribe #email-input {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #form #subscribe #email-input #email {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #form #subscribe #email-input #submit {
+    width: 50%;
+  }
+}
+
+/* Small phones: 0 - 480 px */
+/*# sourceMappingURL=queries.css.map */
