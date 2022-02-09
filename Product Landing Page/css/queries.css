@@ -176,4 +176,59 @@
 }
 
 /* Small phones: 0 - 480 px */
+@media only screen and (max-width: 480px) {
+  h2 {
+    font-size: 25px;
+  }
+  header #nav-bar li {
+    font-size: 15px;
+  }
+  #features {
+    padding: 30px 20px;
+    height: 650px;
+  }
+  #features .features-title {
+    padding: 20px 0;
+    font-size: 18px;
+  }
+  #features .features-list {
+    letter-spacing: 1px;
+  }
+  #features #icons {
+    height: 500px;
+  }
+  #features #icons .bi-chevron-double-right {
+    height: 55px;
+  }
+  #features #icons div {
+    padding-right: 10px;
+  }
+  #pricing {
+    padding: 30px 5% 70px 5%;
+  }
+  #pricing #price-choice .price-quantity {
+    font-size: 12px;
+  }
+  #pricing #price-choice .pack-details .pack-features {
+    font-size: 13px;
+  }
+  #pricing #price-choice .pack-details .btn:link, #pricing #price-choice .pack-details .btn:visited {
+    font-size: 15px;
+  }
+  #pricing #price-choice .selling-price {
+    width: 40%;
+  }
+  #pricing #price-choice h3 {
+    letter-spacing: 1px;
+  }
+  #form #subscribe {
+    font-size: 18px;
+  }
+  #form #subscribe #email-input #email, #form #subscribe #email-input #submit {
+    font-size: 12px;
+  }
+  #form #subscribe #email-input #submit {
+    width: 65%;
+  }
+}
 /*# sourceMappingURL=queries.css.map */
