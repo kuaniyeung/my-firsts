@@ -231,4 +231,53 @@ $font-weight: (
 /* Small phones: 0 - 480 px */
 @media only screen and (max-width: 480px) {
 
+    h2 { font-size: font-size(s); }
+
+    header #nav-bar li { font-size: font-size(xs);}
+
+    #features {
+
+        padding: 30px 20px;
+        height: 650px;
+
+        .features-title { 
+            padding: 20px 0;
+            font-size: font-size(xs) + 3px;
+        }
+
+        .features-list {
+            letter-spacing: 1px;
+        }
+
+        #icons { 
+            height:  500px;
+
+            .bi-chevron-double-right { height: 55px; }
+
+            div { padding-right: 10px;}
+         }
+    }
+
+    #pricing {
+        padding: 30px 5% 70px 5%;
+
+        #price-choice {
+            .price-quantity { font-size: font-size(xs) - 3px; }
+            .pack-details .pack-features { font-size: font-size(xs) - 2px; }
+            .pack-details .btn:link, .pack-details .btn:visited { font-size: font-size(xs);}
+            .selling-price { width: 40%; }
+            h3 { letter-spacing: 1px;}
+        }
+    }
+
+    #form {
+        #subscribe { 
+            font-size: font-size(xs) + 3px;
+
+            #email-input { 
+                #email, #submit { font-size: font-size(xs) - 3px;}
+                #submit { width: 65%; }
+            } 
+        }       
+    }
 }
